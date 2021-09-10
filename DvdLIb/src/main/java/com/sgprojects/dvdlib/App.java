@@ -19,7 +19,6 @@ public class App {
     public static void main(String[] args) {
         UserIO myIo = new UserIOConsoleImpl();
         DvdView myView = new DvdView(myIo);
-        
         DvdDao myDao = new DvdDao();
         DvdController controller = new DvdController(myDao, myView);
         controller.run();

@@ -126,6 +126,8 @@ public class DvdView {
     public void displayEditBanner(String title){
         io.print("Editing Dvd: " + title);
     }
+    
+    
     public void displayChangeResult(DvD studentRecord){
         
         if(studentRecord != null){

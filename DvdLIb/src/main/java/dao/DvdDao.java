@@ -62,7 +62,6 @@ public class DvdDao implements DvdDaoInterface{
     
     
     
-    
      private void loadRoster() throws DvdDaoException {
             Scanner scanner;
 

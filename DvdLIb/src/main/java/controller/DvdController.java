@@ -118,6 +118,7 @@ public class DvdController {
         String studentId = view.getDvdChoice();
         view.displayEditBanner(studentId);
         DvD newDvd = view.getNewDvdInfo();
+        dao.addDvd(newDvd.getTitle(), newDvd);
         DvD removedStudent = dao.removeDvd(studentId);
         if(removedStudent==null){
             dao.removeDvd(newDvd.getTitle());
