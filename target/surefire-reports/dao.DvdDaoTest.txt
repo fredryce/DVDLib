@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: dao.DvdDaoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+dao.DvdDaoTest.testSomeMethod()  Time elapsed: 0.005 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at dao.DvdDaoTest.testSomeMethod(DvdDaoTest.java:68)
+
+dao.DvdDaoTest.testAddGetStudent()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "dao.DvdDao.addDvd(String, dto.DvD)" because "this.testDao" is null
+	at dao.DvdDaoTest.testAddGetStudent(DvdDaoTest.java:86)
+
